@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ShapeButton">
+        <attr name="buttonColor" format="reference" />
+        <attr name="radius" format="dimension" />
+        <attr name="stroke" format="dimension" />
+        <attr name="shapeStyle" format="dimension" />
+        <attr name="strokeColor" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="RippleLayout">
+        <attr name="color" format="color" />
+        <attr name="strokeWidth" format="dimension" />
+        <attr name="circleRadius" format="dimension" />
+        <attr name="duration" format="integer" />
+        <attr name="rippleNum" format="integer" />
+        <attr name="scale" format="float" />
+        <attr name="showRipple" format="boolean" />
+    </declare-styleable>
+
+</resources>
